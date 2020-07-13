@@ -1,0 +1,28 @@
+img {
+    height: 200px !important;
+    width: auto !important;
+}
+/*
+article {
+    border-color: #BAD455;
+    border-style: dotted;
+}
+
+body { 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10%;
+}
+
+ul{
+    justify-content: center;
+    list-style-type: circle;
+    list-style-position: inside;
+    padding: 0;
+} */
+
+.container {
+    display: grid;
+}
