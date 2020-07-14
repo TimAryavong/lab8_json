@@ -58,7 +58,7 @@ function products(jsonObj) {
         name.innerHTML = 'Name: ' + topDeals[i].name;
         price.innerHTML = 'Price: $' + topDeals[i].price;
         description.innerHTML = 'Description: ' + topDeals[i].description;
-        image.setAttribute('src', '/images/'+topDeals[i].image);
+        image.setAttribute('src', 'images/'+topDeals[i].image);
         image.setAttribute('class', 'p-2');
         features.innerHTML = 'Features';
         features.setAttribute('class','text-white');
